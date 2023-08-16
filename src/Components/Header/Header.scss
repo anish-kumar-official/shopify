@@ -1,0 +1,43 @@
+.headerWrapper{
+    // width: 100%;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    padding: 20px;
+    // gap: 50px;
+    background-color: black;
+    // color: white;
+    .name{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5rem;
+        color: white;
+        span{
+            color: red;
+        }
+    }
+    .rightWrapper{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+
+        .routing{
+           ul{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            li{
+                list-style: none;
+                margin: 0px 10px;
+                .normalNav{
+                    color: white;
+                    text-decoration: none;
+                }
+                .active{
+                    color: greenyellow;
+                    text-decoration: none;
+                }
+            }
+           } 
+        }
+    }
+}
